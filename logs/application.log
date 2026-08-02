@@ -1,0 +1,163 @@
+2026-08-02T12:31:30.014+05:30  INFO 7240 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : Starting SpringbootLearningApplication using Java 21.0.11 with PID 7240 (C:\Users\vijay\Downloads\springboot-learning\springboot-learning\target\classes started by vijay in C:\Users\vijay\Downloads\springboot-learning\springboot-learning)
+2026-08-02T12:31:30.018+05:30  INFO 7240 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : The following 1 profile is active: "prod"
+2026-08-02T12:31:30.739+05:30  INFO 7240 --- [springboot-learning] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-08-02T12:31:30.755+05:30  INFO 7240 --- [springboot-learning] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-02T12:31:30.756+05:30  INFO 7240 --- [springboot-learning] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-02T12:31:30.791+05:30  INFO 7240 --- [springboot-learning] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 726 ms
+2026-08-02T12:31:31.079+05:30  INFO 7240 --- [springboot-learning] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-08-02T12:31:31.083+05:30  INFO 7240 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : Started SpringbootLearningApplication in 1.592 seconds (process running for 1.977)
+2026-08-02T12:31:31.086+05:30  INFO 7240 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Application started in environment=Production
+2026-08-02T12:31:31.086+05:30  INFO 7240 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Order created successfully, orderId=784, userId=101
+2026-08-02T12:31:31.088+05:30  INFO 7240 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment initiated, orderId=784, amount=1499
+2026-08-02T12:31:31.088+05:30  WARN 7240 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment taking longer than expected, orderId=784
+2026-08-02T12:31:31.088+05:30 ERROR 7240 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment failed, orderId=784
+2026-08-02T14:03:20.242+05:30  INFO 7240 --- [springboot-learning] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-02T14:03:20.257+05:30  INFO 7240 --- [springboot-learning] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-02T14:03:32.606+05:30  INFO 11572 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : Starting SpringbootLearningApplication using Java 21.0.11 with PID 11572 (C:\Users\vijay\Downloads\springboot-learning\springboot-learning\target\classes started by vijay in C:\Users\vijay\Downloads\springboot-learning\springboot-learning)
+2026-08-02T14:03:32.610+05:30  INFO 11572 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : The following 1 profile is active: "prod"
+2026-08-02T14:03:33.440+05:30  INFO 11572 --- [springboot-learning] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-08-02T14:03:33.461+05:30  INFO 11572 --- [springboot-learning] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-02T14:03:33.462+05:30  INFO 11572 --- [springboot-learning] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-02T14:03:33.522+05:30  INFO 11572 --- [springboot-learning] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 858 ms
+2026-08-02T14:03:34.211+05:30  INFO 11572 --- [springboot-learning] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-08-02T14:03:34.216+05:30  INFO 11572 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : Started SpringbootLearningApplication in 2.196 seconds (process running for 2.803)
+2026-08-02T14:03:34.220+05:30  INFO 11572 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Application started in environment=Production
+2026-08-02T14:03:34.220+05:30  INFO 11572 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Order created successfully, orderId=784, userId=101
+2026-08-02T14:03:34.221+05:30  INFO 11572 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment initiated, orderId=784, amount=1499
+2026-08-02T14:03:34.221+05:30  WARN 11572 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment taking longer than expected, orderId=784
+2026-08-02T14:03:34.221+05:30 ERROR 11572 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment failed, orderId=784
+2026-08-02T14:19:19.772+05:30  INFO 11572 --- [springboot-learning] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-02T14:19:19.772+05:30  INFO 11572 --- [springboot-learning] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-02T14:19:19.776+05:30  INFO 11572 --- [springboot-learning] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-08-02T19:42:43.837+05:30  INFO 14860 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : Starting SpringbootLearningApplication using Java 21.0.11 with PID 14860 (C:\Users\vijay\Downloads\springboot-learning\springboot-learning\target\classes started by vijay in C:\Users\vijay\Downloads\springboot-learning\springboot-learning)
+2026-08-02T19:42:43.841+05:30  INFO 14860 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : The following 1 profile is active: "prod"
+2026-08-02T19:42:44.685+05:30  INFO 14860 --- [springboot-learning] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-08-02T19:42:44.701+05:30  INFO 14860 --- [springboot-learning] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-02T19:42:44.701+05:30  INFO 14860 --- [springboot-learning] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-02T19:42:44.745+05:30  INFO 14860 --- [springboot-learning] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 851 ms
+2026-08-02T19:42:45.081+05:30  INFO 14860 --- [springboot-learning] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-08-02T19:42:45.090+05:30  INFO 14860 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : Started SpringbootLearningApplication in 1.878 seconds (process running for 2.495)
+2026-08-02T19:42:45.093+05:30  INFO 14860 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Application started in environment=Production
+2026-08-02T19:42:45.094+05:30  INFO 14860 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Order created successfully, orderId=784, userId=101
+2026-08-02T19:42:45.094+05:30  INFO 14860 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment initiated, orderId=784, amount=1499
+2026-08-02T19:42:45.094+05:30  WARN 14860 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment taking longer than expected, orderId=784
+2026-08-02T19:42:45.094+05:30 ERROR 14860 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment failed, orderId=784
+2026-08-02T19:43:54.393+05:30  INFO 14860 --- [springboot-learning] [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-02T19:43:54.393+05:30  INFO 14860 --- [springboot-learning] [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-02T19:43:54.398+05:30  INFO 14860 --- [springboot-learning] [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-08-02T20:00:44.658+05:30  INFO 14860 --- [springboot-learning] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-02T20:00:44.663+05:30  INFO 14860 --- [springboot-learning] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-02T20:00:47.915+05:30  INFO 16388 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : Starting SpringbootLearningApplication using Java 21.0.11 with PID 16388 (C:\Users\vijay\Downloads\springboot-learning\springboot-learning\target\classes started by vijay in C:\Users\vijay\Downloads\springboot-learning\springboot-learning)
+2026-08-02T20:00:47.918+05:30  INFO 16388 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : The following 1 profile is active: "prod"
+2026-08-02T20:00:48.641+05:30  INFO 16388 --- [springboot-learning] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-08-02T20:00:48.652+05:30  INFO 16388 --- [springboot-learning] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-02T20:00:48.653+05:30  INFO 16388 --- [springboot-learning] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-02T20:00:48.691+05:30  INFO 16388 --- [springboot-learning] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 725 ms
+2026-08-02T20:00:48.962+05:30  INFO 16388 --- [springboot-learning] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-08-02T20:00:48.968+05:30  INFO 16388 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : Started SpringbootLearningApplication in 1.629 seconds (process running for 2.064)
+2026-08-02T20:00:48.971+05:30  INFO 16388 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Application started in environment=Production
+2026-08-02T20:00:48.971+05:30  INFO 16388 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Order created successfully, orderId=784, userId=101
+2026-08-02T20:00:48.971+05:30  INFO 16388 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment initiated, orderId=784, amount=1499
+2026-08-02T20:00:48.971+05:30  WARN 16388 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment taking longer than expected, orderId=784
+2026-08-02T20:00:48.972+05:30 ERROR 16388 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment failed, orderId=784
+2026-08-02T20:01:20.750+05:30  INFO 16388 --- [springboot-learning] [http-nio-8082-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-02T20:01:20.751+05:30  INFO 16388 --- [springboot-learning] [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-02T20:01:20.752+05:30  INFO 16388 --- [springboot-learning] [http-nio-8082-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-08-02T20:02:57.650+05:30  INFO 16388 --- [springboot-learning] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-02T20:02:57.655+05:30  INFO 16388 --- [springboot-learning] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-02T20:03:01.634+05:30  INFO 16900 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : Starting SpringbootLearningApplication using Java 21.0.11 with PID 16900 (C:\Users\vijay\Downloads\springboot-learning\springboot-learning\target\classes started by vijay in C:\Users\vijay\Downloads\springboot-learning\springboot-learning)
+2026-08-02T20:03:01.641+05:30  INFO 16900 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : The following 1 profile is active: "prod"
+2026-08-02T20:03:02.573+05:30  INFO 16900 --- [springboot-learning] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-08-02T20:03:02.591+05:30  INFO 16900 --- [springboot-learning] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-02T20:03:02.591+05:30  INFO 16900 --- [springboot-learning] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-02T20:03:02.655+05:30  INFO 16900 --- [springboot-learning] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 939 ms
+2026-08-02T20:03:03.034+05:30  INFO 16900 --- [springboot-learning] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-08-02T20:03:03.039+05:30  INFO 16900 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : Started SpringbootLearningApplication in 2.131 seconds (process running for 3.274)
+2026-08-02T20:03:03.044+05:30  INFO 16900 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Application started in environment=Production
+2026-08-02T20:03:03.044+05:30  INFO 16900 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Order created successfully, orderId=784, userId=101
+2026-08-02T20:03:03.044+05:30  INFO 16900 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment initiated, orderId=784, amount=1499
+2026-08-02T20:03:03.044+05:30  WARN 16900 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment taking longer than expected, orderId=784
+2026-08-02T20:03:03.045+05:30 ERROR 16900 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment failed, orderId=784
+2026-08-02T20:03:36.602+05:30  INFO 16900 --- [springboot-learning] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-02T20:03:36.602+05:30  INFO 16900 --- [springboot-learning] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-02T20:03:36.603+05:30  INFO 16900 --- [springboot-learning] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-08-02T20:14:02.322+05:30  INFO 16900 --- [springboot-learning] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-02T20:14:02.329+05:30  INFO 16900 --- [springboot-learning] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-02T20:14:05.810+05:30  INFO 4332 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : Starting SpringbootLearningApplication using Java 21.0.11 with PID 4332 (C:\Users\vijay\Downloads\springboot-learning\springboot-learning\target\classes started by vijay in C:\Users\vijay\Downloads\springboot-learning\springboot-learning)
+2026-08-02T20:14:05.813+05:30  INFO 4332 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : The following 1 profile is active: "prod"
+2026-08-02T20:14:06.534+05:30  INFO 4332 --- [springboot-learning] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-08-02T20:14:06.547+05:30  INFO 4332 --- [springboot-learning] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-02T20:14:06.547+05:30  INFO 4332 --- [springboot-learning] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-02T20:14:06.583+05:30  INFO 4332 --- [springboot-learning] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 722 ms
+2026-08-02T20:14:06.758+05:30  WARN 4332 --- [springboot-learning] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'productController' method 
+com.vijay.springbootlearning.Controller.ProductController#updateProduct()
+to {POST [/api/products]}: There is already 'productController' bean method
+com.vijay.springbootlearning.Controller.ProductController#createProduct() mapped.
+2026-08-02T20:14:06.761+05:30  INFO 4332 --- [springboot-learning] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-08-02T20:14:06.775+05:30  INFO 4332 --- [springboot-learning] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-02T20:14:06.786+05:30 ERROR 4332 --- [springboot-learning] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'productController' method 
+com.vijay.springbootlearning.Controller.ProductController#updateProduct()
+to {POST [/api/products]}: There is already 'productController' bean method
+com.vijay.springbootlearning.Controller.ProductController#createProduct() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1815) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.0.jar:4.1.0]
+	at com.vijay.springbootlearning.SpringbootLearningApplication.main(SpringbootLearningApplication.java:13) ~[classes/:na]
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'productController' method 
+com.vijay.springbootlearning.Controller.ProductController#updateProduct()
+to {POST [/api/products]}: There is already 'productController' bean method
+com.vijay.springbootlearning.Controller.ProductController#createProduct() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:646) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:606) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:327) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:459) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:80) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:294) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986) ~[na:na]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:292) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:261) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:220) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:208) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:158) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1811) ~[spring-beans-7.0.8.jar:7.0.8]
+	... 18 common frames omitted
+
+2026-08-02T20:15:21.181+05:30  INFO 17376 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : Starting SpringbootLearningApplication using Java 21.0.11 with PID 17376 (C:\Users\vijay\Downloads\springboot-learning\springboot-learning\target\classes started by vijay in C:\Users\vijay\Downloads\springboot-learning\springboot-learning)
+2026-08-02T20:15:21.184+05:30  INFO 17376 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : The following 1 profile is active: "prod"
+2026-08-02T20:15:21.890+05:30  INFO 17376 --- [springboot-learning] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-08-02T20:15:21.901+05:30  INFO 17376 --- [springboot-learning] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-02T20:15:21.901+05:30  INFO 17376 --- [springboot-learning] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-02T20:15:21.937+05:30  INFO 17376 --- [springboot-learning] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 706 ms
+2026-08-02T20:15:22.207+05:30  INFO 17376 --- [springboot-learning] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-08-02T20:15:22.210+05:30  INFO 17376 --- [springboot-learning] [main] c.v.s.SpringbootLearningApplication      : Started SpringbootLearningApplication in 1.542 seconds (process running for 1.911)
+2026-08-02T20:15:22.214+05:30  INFO 17376 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Application started in environment=Production
+2026-08-02T20:15:22.214+05:30  INFO 17376 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Order created successfully, orderId=784, userId=101
+2026-08-02T20:15:22.214+05:30  INFO 17376 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment initiated, orderId=784, amount=1499
+2026-08-02T20:15:22.214+05:30  WARN 17376 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment taking longer than expected, orderId=784
+2026-08-02T20:15:22.214+05:30 ERROR 17376 --- [springboot-learning] [main] c.v.s.service.AppPropertyDemo            : Payment failed, orderId=784
+2026-08-02T20:15:58.472+05:30  INFO 17376 --- [springboot-learning] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-02T20:15:58.473+05:30  INFO 17376 --- [springboot-learning] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-02T20:15:58.473+05:30  INFO 17376 --- [springboot-learning] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-08-02T20:16:14.018+05:30  WARN 17376 --- [springboot-learning] [http-nio-8082-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' is not supported]
+2026-08-02T20:31:51.543+05:30  INFO 17376 --- [springboot-learning] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-02T20:31:51.549+05:30  INFO 17376 --- [springboot-learning] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete

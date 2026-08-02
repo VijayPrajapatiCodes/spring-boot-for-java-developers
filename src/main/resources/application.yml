@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: springboot-learning
+
+  profiles:
+    active: prod
+
+server:
+  port: 9091
+
+app:
+  name: Spring Boot YAML Learning
+  developer: Vijay
+
+logging:
+  level:
+    com.vijay.springbootlearning: INFO
+
+  file:
+    name: logs/application.log
