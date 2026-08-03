@@ -4,6 +4,9 @@ import com.vijay.springbootlearning.service.MessageService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @SpringBootApplication
 public class SpringbootLearningApplication {
@@ -14,5 +17,15 @@ public class SpringbootLearningApplication {
         MessageService messageService =context.getBean(MessageService.class);
         System.out.println(messageService.getMessage());
 	}
+
+    @GetMapping("/users/{userId}/orders")
+    public String getOrders(
+            @PathVariable int userId,
+            @RequestParam String status) {
+
+        return "User: " + userId + ", Status: " + status;
+    }
+
+
 
 }
