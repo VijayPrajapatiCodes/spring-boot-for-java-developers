@@ -1,6 +1,7 @@
 package com.vijay.springbootlearning.Controller;
 
 import com.vijay.springbootlearning.dto.OrderRequest;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,7 +15,7 @@ public class OrderController {
 //         }
 
          @PostMapping
-        public ResponseEntity<OrderRequest> createOrder(@RequestBody OrderRequest order){
+        public ResponseEntity<OrderRequest> createOrder(@Valid @RequestBody OrderRequest order){
          return ResponseEntity.status(HttpStatus.CREATED).body(order);
         }
 
