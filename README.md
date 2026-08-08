@@ -289,8 +289,7 @@ Metrics can include:
 
 The repository also contains screenshots from the practical implementation.
 
-## 🌐 REST Controller
-
+## ✅ Email Confirmation
 ![Email Confirmation](./screenshort/EmailConfirm.png)
 
 ---
@@ -301,7 +300,8 @@ The repository also contains screenshots from the practical implementation.
 
 ---
 
-## ✅ Email Confirmation
+## 🌐 REST Controller
+
 
 ![REST Controller](./screenshort/Controller.png)
 
