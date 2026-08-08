@@ -340,10 +340,9 @@ Spring Boot Application
 
 Screenshots from the practical implementations are available in the repository.
 
-## 🌐 REST Controller
+## ✅ Email Confirmation
 
-![REST Controller](./screenshort/Controller.png)
-
+![Email Confirmation](./screenshort/EmailConfirm.png)
 ---
 
 ## 📧 Email Service
@@ -352,9 +351,10 @@ Screenshots from the practical implementations are available in the repository.
 
 ---
 
-## ✅ Email Confirmation
 
-![Email Confirmation](./screenshort/EmailConfirm.png)
+## 🌐 REST Controller
+
+![REST Controller](./screenshort/Controller.png)
 
 ---
 
