@@ -1,4 +1,8 @@
 package com.vijay.springbootlearning.repository;
 
-public class ProductRepository {
+import com.vijay.springbootlearning.entity.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProductRepository
+        extends JpaRepository<Product, Long> {
 }

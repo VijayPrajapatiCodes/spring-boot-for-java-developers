@@ -3,3 +3,44 @@ server:
 
 app:
   environment: Development
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springboot_learning
+    username: root
+    password: Vijay@2004
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: vijayprajapati24645@gmail.com
+    password: qodj xxvu pbqa ewiz
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  main:
+    banner-mode: off
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+  endpoint:
+    health:
+      show-details: always
+
+  prometheus:
+    metrics:
+      export:
+        enabled: true
+

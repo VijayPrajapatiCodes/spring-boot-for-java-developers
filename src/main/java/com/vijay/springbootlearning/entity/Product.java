@@ -1,40 +1,33 @@
 package com.vijay.springbootlearning.entity;
 
+import jakarta.persistence.*;
+import lombok.*;
+
+import java.time.LocalDateTime;
+
+@Entity
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Table(name = "products")
 public class Product {
-    private long id;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    @Column(name = "products_name",nullable = false,length = 100)
     private String name;
+    @Column(nullable = false)
     private double price;
+    @Column(length = 50)
     private String category;
+    @Column(nullable = false)
     private int stock;
-    public  Product(){
+    private LocalDateTime createdAt;
 
-    }
-    public void setId(long id) {
-        this.id = id;
-    }
+    private LocalDateTime updatedAt;
+    @Enumerated(EnumType.STRING)
+    private ProductStatus status;
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
-    }
-
-    public void setStock(int stock) {
-        this.stock = stock;
-    }
-
-    public Product(long id, double price, String name, String category, int stock) {
-        this.id = id;
-        this.price = price;
-        this.name = name;
-        this.category = category;
-        this.stock = stock;
-    }
 }
-
